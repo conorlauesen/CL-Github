@@ -1,0 +1,91 @@
+
+/*
+=STYLE THE TYPE
+============================================= */
+
+/*
+=STYLE THE BODY*/ 
+
+body, .menu-wrapper a, p {
+    font: normal 100 17px/1.2 "Times New Roman",serif; 
+    color: rgb(33 56 27);
+}
+
+/*
+=STYLE THE LINKS*/ 
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.body-link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+=STYLE THE MENU*/ 
+.menu-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    list-style: none;
+}
+
+.menu-wrapper a {
+    display: block;
+    word-break: keep-all;
+}
+
+/*
+=STYLE THE TYPE*/ 
+
+h1 a {
+    color: rgb(250 247 245);
+    font-weight: 100;
+}
+
+h2 {
+    color: rgba(33 56 27/ 0.4);
+    font-size: 40px;
+    font-weight: 100;
+}
+
+h3, .caption h3 a, .archive-title h3 a {
+    color: rgba(33 56 2);
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: normal;
+
+}
+
+.archive-title h3 {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+footer a .index {
+    color: rgb(250 247 245/ 0.3);
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: .04em;
+    font-weight: normal;
+}
+
+/*
+=CUSTOMIZATIONS*/ 
+span.sub {
+    color: rgba(33 56 27);
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+span.scaps {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    display: inline-block;
+}

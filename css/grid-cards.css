@@ -1,0 +1,42 @@
+/*
+=3 GRID "HOVER CAPTIONS"
+============================================= */
+/*
+=STYLE THE TRAVEL GRID */ 
+.travel-grid {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* overlay */
+.caption {
+    position: absolute;
+    inset: 0;
+    background: rgba(26, 44, 21, 0.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* hover effect */
+.card:hover .caption {
+    opacity: 1;
+}

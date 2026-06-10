@@ -1,0 +1,92 @@
+
+@media (max-width: 1200px) {
+
+    .cl {
+        left: 18%;
+        top: 31%;
+    }
+  
+    .cp {
+        left: 10%;
+        top: 15%;
+    }
+  
+    .essays {
+        left: 18%;
+        top: 27%;
+    }
+  
+    .pc {
+        left: 16%;
+        top: 57%;
+        word-spacing: 2em;
+    }
+  
+    .er {
+        left: 37%;
+        top: 40%;
+        word-spacing: 5em;
+    }
+  
+    .aw {
+        left: 11%;
+        top: 68%;
+        letter-spacing: 0.4em;
+    }
+  
+    .tl {
+        left: 43%;
+        top: 73%;
+    }
+  
+    .education {
+        left: 37%;
+        top: 52%;
+        letter-spacing: 1em;
+    }
+  
+    .testimonials {
+        left: 61%;
+        top: 61%;
+    }
+  
+    .go {
+        left: 63%;
+        top: 46%;
+    }
+  
+    .hands img,
+  .birds img {
+      width: 200px;
+      height: auto;
+      display: block;
+  }
+  
+  }
+  @media (max-width: 800px) {
+
+    .cl {
+        font-size: 46px;
+    }
+
+    .essays,
+    .testimonials,
+    .go {
+        font-size: 25px;
+    }
+
+    .cp,
+    .pc,
+    .er,
+    .aw,
+    .tl,
+    .education {
+        font-size: 19px;
+    }
+
+    .hands img,
+    .birds img {
+        width: 150px;
+    }
+
+}

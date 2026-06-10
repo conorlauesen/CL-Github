@@ -1,0 +1,81 @@
+/*
+=============================================
+ARCHIVE GRID 
+=============================================
+*/
+
+.archive-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.archive-item {
+    flex: 1 1 calc(33.33% - 20px);
+    display: flex;
+    max-width: 250px;
+    flex-direction: column;
+}
+
+/* IMAGE */
+
+.archive-item img {
+    max-width: 250px; 
+    height: auto;   
+    display: block;
+    background-color: black;
+    filter: grayscale(10%);
+    transition: filter 0.25s ease;
+}
+
+.archive-item:hover img {
+    filter: grayscale(0%);
+}
+
+/* CAPTION */
+
+.caption {
+    font-size: 14px;
+    line-height: 1.4;
+    color: rgb(26, 44, 21);
+    opacity: 0.85;
+    margin: 10px;
+    max-width: 350px; 
+}
+
+
+/*
+Name= Media Queries
+/*
+=X-Small Screen < 449px
+============================================= */
+@media (max-width: 400px) {
+    .archive-item {
+        flex: 1 1 100%; /* 1 per row */
+    }
+}
+
+/*
+=Small Screen ≥ 450px
+============================================= */
+@media (min-width: 555px) {
+    .archive-item {
+        flex: 1 1 calc(50% - 15px);    }
+}
+
+
+/*
+=Large Screen ≥ 992px
+============================================= */
+@media (min-width: 1000px) {
+    .archive-item {
+        flex: 1 1 calc(33.33% - 20px);    }
+}
+@media (max-width: 800px) {
+
+    h2 {
+        font-size: 33px;
+    }
+}
