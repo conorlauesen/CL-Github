@@ -90,3 +90,108 @@
     }
 
 }
+
+
+@media (max-width: 575.25px) {
+
+    .cl {
+        left: 9%;
+        top: 31%;
+    }
+  
+    .cp {
+        left: 9%;
+        top: 13%;
+    }
+  
+    .essays {
+        left: 9%;
+        top: 27%;
+    }
+  
+    .pc {
+        left: 9%;
+        top: 57%;
+        word-spacing: 2em;
+    }
+  
+    .er {
+        left: 24%;
+        top: 40%;
+        word-spacing: 4.3em;
+    }
+  
+    .aw {
+        left: 9%;
+        top: 68%;
+        letter-spacing: 0.4em;
+    }
+  
+    .tl {
+        left: 45%;
+        top: 73%;
+    }
+  
+    .education {
+        left: 27%;
+        top: 52%;
+        letter-spacing: 1em;
+    }
+  
+    .testimonials {
+        left: 58%;
+        top: 61%;
+    }
+  
+    .go {
+        left: 47%;
+        top: 46%;
+    }
+  
+    .hands img,
+  .birds img {
+      width: 200px;
+      height: auto;
+      display: block;
+      
+  }
+  .hands {
+    left: 50vw;
+    top: 32vh;
+  }
+  
+  .birds {
+    left: 12vw;
+    top: 50vh;
+  }
+
+  }
+
+
+  @media (max-width: 800px) {
+
+    .cl {
+        font-size: 46px;
+    }
+
+    .essays,
+    .testimonials,
+    .go {
+        font-size: 25px;
+    }
+
+    .cp,
+    .pc,
+    .er,
+    .aw,
+    .tl,
+    .education {
+        font-size: 19px;
+    }
+
+    .hands img,
+    .birds img {
+        width: 150px;
+    }
+
+}
