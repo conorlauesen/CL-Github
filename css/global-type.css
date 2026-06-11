@@ -12,9 +12,10 @@ body, .menu-wrapper a, p {
 }
 
 strong {
-    font-family: inherit;
-    font-weight: bold;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
 }
+
 /*
 =STYLE THE LINKS*/ 
 a {
