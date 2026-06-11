@@ -94,13 +94,17 @@
 @media (max-width: 575.25px) {
 
     .pge-wrapper-index {
+        display: flex;
+        justify-content: center;
         align-items: center;
-        padding-left: 20px;
+        width: 100%;
     }
 
     .index-cont {
-        max-width: 100%;
+        width: 90%;
+        max-width: 90%;
         margin: 0 auto;
+        position: relative;
     }
 
 }
