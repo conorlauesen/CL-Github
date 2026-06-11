@@ -93,16 +93,16 @@
 
 @media (max-width: 575.25px) {
 
-    .pge-wrapper-index {
-        display: flex;
-        width: 100%;
-    }
 
     .index-cont {
-        width: 90%;
         max-width: 90%;
         margin: 0 auto;
-        position: relative;
+    }
+
+    .hands img,
+    .birds img {
+        width: 100px;
+        height: auto;
     }
 
 }
