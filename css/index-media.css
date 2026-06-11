@@ -93,6 +93,9 @@
 
 @media (max-width: 575.25px) {
 
+    .pge-wrapper-index {
+        align-items: center;
+    }
 
     .index-cont {
         max-width: 90%;
