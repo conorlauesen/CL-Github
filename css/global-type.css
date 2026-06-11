@@ -11,6 +11,10 @@ body, .menu-wrapper a, p {
     color: rgb(33 56 27);
 }
 
+strong {
+    font-family: inherit;
+    font-weight: bold;
+}
 /*
 =STYLE THE LINKS*/ 
 a {
