@@ -43,24 +43,24 @@ header, footer {
 }
 
 .menu-wrapper {
-    padding-right: 20px;
     min-width: 230px;
 }
 
-.menu-wrapper nav {
-    position: fixed;
-}
 .main-cont {
-    padding-left: 50px;
-    padding-bottom: 20px;
+    padding: 0px 50px 50px 50px;
     max-width: 1200px;
 }
 
 .sub-cont {
-    min-width: 250px;
-    padding: 30px;
+    padding: 0px 50px 50px 50px;
 }
 
 .archive-title {
     margin-top: 20px;
+}
+
+@media (max-width: 625px) {
+    .pge-wrapper {
+        flex-direction: column;
+    }
 }

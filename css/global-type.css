@@ -89,3 +89,11 @@ span.scaps {
     text-transform: uppercase;
     display: inline-block;
 }
+
+
+@media (max-width: 575.98px) {
+    .main-cont h2 {
+        font-size: 35px;
+        word-wrap: break-word;
+    }
+}
