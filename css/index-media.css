@@ -91,22 +91,113 @@
 
 }
 
+
 @media (max-width: 575.25px) {
 
     .pge-wrapper-index {
         align-items: center;
-        max-width: 90%;
+        justify-content: center;
+        margin-left: 30px;
     }
 
-    .index-cont {
-        max-width: 90%;
-        margin: 0 auto;
+    .cl {
+        left: 6%;
+        top: 31%;
+    }
+  
+    .cp {
+        left: 6%;
+        top: 13%;
+    }
+  
+    .essays {
+        left: 6%;
+        top: 27%;
+    }
+  
+    .pc {
+        left: 6%;
+        top: 57%;
+        word-spacing: 2em;
+    }
+  
+    .er {
+        left: 24%;
+        top: 40%;
+        word-spacing: 4.3em;
+    }
+  
+    .aw {
+        left: 6%;
+        top: 68%;
+        letter-spacing: 0.4em;
+    }
+  
+    .tl {
+        left: 45%;
+        top: 73%;
+    }
+  
+    .education {
+        left: 20%;
+        top: 52%;
+        letter-spacing: 1em;
+    }
+  
+    .testimonials {
+        left: 44%;
+        top: 61%;
+    }
+  
+    .go {
+        left: 40%;
+        top: 46%;
+    }
+  
+    .hands img,
+  .birds img {
+      width: 200px;
+      height: auto;
+      display: block;
+      
+  }
+  .hands {
+    left: 40vw;
+    top: 32vh;
+  }
+  
+  .birds {
+    left: 9vw;
+    top: 50vh;
+  }
+
+  }
+
+
+  @media (max-width: 800px) {
+
+    .cl {
+        font-size: 46px;
+    }
+
+    .essays,
+    .testimonials,
+    .go {
+        font-size: 25px;
+    }
+
+    .cp,
+    .pc,
+    .er,
+    .aw,
+    .tl,
+    .education {
+        font-size: 19px;
     }
 
     .hands img,
     .birds img {
-        width: 100px;
-        height: auto;
+        width: 150px;
     }
 
 }
