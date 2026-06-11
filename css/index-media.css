@@ -96,6 +96,7 @@
 
     .pge-wrapper-index {
         justify-content: center;
+        align-items: center;
         max-width: 85%;
     }
 
