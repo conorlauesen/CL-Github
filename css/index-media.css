@@ -96,26 +96,26 @@
 
     .pge-wrapper-index {
         align-items: center;
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .cl {
-        left: 6%;
+        left: 9%;
         top: 31%;
     }
   
     .cp {
-        left: 6%;
+        left: 9%;
         top: 10%;
     }
   
     .essays {
-        left: 6%;
+        left: 9%;
         top: 25%;
     }
   
     .pc {
-        left: 6%;
+        left: 9%;
         top: 57%;
         word-spacing: 2em;
     }
@@ -127,7 +127,7 @@
     }
   
     .aw {
-        left: 6%;
+        left: 9%;
         top: 72%;
         letter-spacing: 0.4em;
     }
@@ -166,7 +166,7 @@
   }
   
   .birds {
-    left: 9vw;
+    left: 17vw;
     top: 51vh;
   }
 
