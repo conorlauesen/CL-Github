@@ -53,6 +53,7 @@ header, footer {
 
 .sub-cont {
     padding: 0px 50px 50px 50px;
+    min-width: 300px;
 }
 
 .archive-title {
