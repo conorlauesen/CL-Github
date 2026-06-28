@@ -47,12 +47,12 @@ header, footer {
 }
 
 .main-cont {
-    padding: 0px 50px 50px 50px;
+    padding: 0px 40px 40px 40px;
     max-width: 1200px;
 }
 
 .sub-cont {
-    padding: 0px 50px 50px 50px;
+    padding: 0px 40px 40px 40px;
     min-width: 300px;
 }
 
