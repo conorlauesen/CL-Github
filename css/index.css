@@ -11,7 +11,7 @@ body{
   background-color: rgb(33, 44, 30); 
 }
 
-.cl, .essays, .cp, .pc, .er, .aw, .tl, .testimonials, .education, .go {
+.cl, .essays, .cp, .pc, .er, .aw, .pcv, .testimonials, .education, .go {
   color: rgb(250 247 245);
   position: absolute;
   white-space: nowrap;
@@ -28,7 +28,7 @@ body{
   font-size: clamp(22px, 2.5vw, 36px);
 }
 
-.cl, .cp, .pc, .er, .aw, .tl, .education {
+.cl, .cp, .pc, .er, .aw, .pcv, .education {
   font-size: 23px;
   font-weight: normal;
   font-size: clamp(14px, 1.8vw, 23px);
@@ -74,7 +74,7 @@ body{
   top: 72vh; 
 }
 
-.tl {
+.pcv {
   line-height: 2.6em;
   left: 40vw;
   top: 76vh; 

@@ -34,7 +34,7 @@
         letter-spacing: 0.4em;
     }
   
-    .tl {
+    .pcv {
         left: 45%;
         top: 73%;
     }
@@ -79,7 +79,7 @@
     .pc,
     .er,
     .aw,
-    .tl,
+    .pcv,
     .education {
         font-size: 19px;
     }
@@ -132,7 +132,7 @@
         letter-spacing: 0.4em;
     }
   
-    .tl {
+    .pcv {
         left: 57%;
         top: 77%;
     }
@@ -189,7 +189,7 @@
     .pc,
     .er,
     .aw,
-    .tl,
+    .pcv,
     .education {
         font-size: 19px;
     }
