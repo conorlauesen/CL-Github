@@ -7,7 +7,7 @@
 =STYLE THE BODY*/ 
 
 body, .menu-wrapper a, p {
-    font: normal 100 17px/1.2 "Times New Roman",serif; 
+    font: normal 100 17px/1.2 "Garamond",serif; 
     color: rgb(33 44 30);
 }
 
@@ -82,14 +82,16 @@ footer a .index {
 =CUSTOMIZATIONS*/ 
 span.sub {
     color: rgba(33 44 30);
-    font-size: 20px;
+    font-size: 23px;
     font-weight: bold;
     display: inline-block;
-    margin-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 span.scaps {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
+    margin-bottom: 5px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     display: inline-block;

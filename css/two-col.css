@@ -1,0 +1,14 @@
+
+/* DIV CONTAINER */
+.two-col {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    margin-top:-20px;
+}
+
+/* TYPE */
+.two-col ul li {
+    margin-bottom: 7px;
+}
+
