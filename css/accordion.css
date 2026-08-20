@@ -14,6 +14,12 @@
 .accordion-header {
     position: relative;
 }
+
+.accordion-header p span.ach {
+    font: normal 700 19px/1.2 "Manrope", sans-serif; 
+    color: rgba(33 44 30/ 0.4);
+    padding-bottom: 6px;
+}
 /*
 =transition the accordion's text color + max height */
 .chv_checkbox:checked ~ .accordion {
@@ -103,7 +109,7 @@
 
 /* TYPE */
 
-.accordion ul li {
+.accordion ul li, .teaser-text ul li{
     color: rgb(33 44 30);
     list-style: none;
     margin-bottom: 11px;

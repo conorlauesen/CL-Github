@@ -20,6 +20,7 @@ Name= Global CSS */
 ================================================== */
 .pge-wrapper {
     display: flex; 
+    flex-wrap: wrap;
     width: 100%;
     min-height: 93.5vh;
     padding-top: 60px;
@@ -54,18 +55,16 @@ footer {
     padding: 0px 40px;
 }
 
-.menu-wrapper {
-    min-width: 230px;
-}
-
 .main-cont {
-    padding: 0px 40px 40px 40px;
+    padding: 0px 40px 0px 40px;
     max-width: 1200px;
+    flex: 1 1 0;
 }
 
 .sub-cont {
     padding: 0px 40px 40px 40px;
     min-width: 300px;
+    flex: 0 0 300px;
     
 }
 
@@ -73,8 +72,109 @@ footer {
     margin-top: 20px;
 }
 
-@media (max-width: 625px) {
+.menu-wrapper {
+    min-width: 230px;
+    flex: 0 0 230px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    background-color: rgb(250 247 245);
+}
+
+/*
+=STYLE THE MENU + MEDIA*/ 
+.menu-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+
+.menu-wrapper nav ul li a {
+    font: normal 200 17px/1.2 "Manrope", sans-serif; 
+    display: block;
+    word-break: keep-all;
+}
+
+.menu-wrapper a {
+    font: normal 200 17px/1.2 "Manrope", sans-serif; 
+    display: block;
+    word-break: keep-all;
+}
+@media (max-width: 2000px) {
+
+    /* PAGE STACKS VERTICALLY */
+    .main-cont {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 1200px) {
+
+    /* PAGE STACKS VERTICALLY */
     .pge-wrapper {
         flex-direction: column;
     }
+
+    /* MENU TAKES FULL WIDTH */
+    .menu-wrapper {
+        position: fixed;   
+        top: 60px;
+        left: 0;
+        width: 100%;
+        min-width: 0;
+        flex: 0 0 auto;
+        padding: 10px 40px;
+        background-color: rgb(250 247 245);
+        z-index: 99;
+        
+    }
+
+    /* MENU CHANGES FROM COLUMN TO ROW */
+    .menu-wrapper ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px 15px;
+       
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .menu-wrapper li {
+        flex: 0 0 auto;
+    }
+
+    .menu-wrapper a {
+        display: block;
+    }
+
+    /* MAIN BELOW MENU */
+    .main-cont {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 auto;
+        padding-top: 90px;
+    }
+
+    /* SUB BELOW MAIN */
+    .sub-cont {
+        width: 100%;
+        min-width: 0;
+        max-width: 100%;
+        flex: 0 0 auto;
+        background-color: rgb(250 247 245);
+    }
 }
+
+@media (max-width: 800px) {
+.main-cont {
+    padding-top: 120px;
+    }
+}
+@media (max-width: 600px) {
+    .main-cont {
+        padding-top: 140px;
+
+        }
+    }

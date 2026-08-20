@@ -4,7 +4,6 @@
     display: flex;
     gap: 10px;
     padding-bottom: 20px;
-    margin-top:-20px;
 }
 
 /* TYPE */
@@ -12,3 +11,10 @@
     margin-bottom: 7px;
 }
 
+@media (max-width: 750px) {
+    .two-col {
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        }
+    }

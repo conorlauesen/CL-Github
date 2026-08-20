@@ -21,6 +21,8 @@ body{
 
 .cl {
   font-size: clamp(36px, 5vw, 66px);
+  font-family: 'Manrope';
+  
 }
 .essays, .testimonials, .go {
   font-size: 36px;
@@ -36,7 +38,7 @@ body{
 
 .cl {
   font-size: 66px;
-  font-weight: bold;
+  font-weight: 100;
   left: 20vw;
   top: 34vh;
 }
@@ -45,10 +47,13 @@ body{
   line-height: 2.9em;  
   left: 11vw;
   top: 14vh;
+  font-family: 'Manrope';
+  font-weight: 100;
 }
 .essays {
   left: 20vw;
   top: 28vh;
+  font-weight: 100;
 }
 
 .pc {
@@ -67,11 +72,13 @@ body{
 }
 
 .aw {
-  text-transform: uppercase;       
+  text-transform: uppercase;
+  font-family: 'Manrope';       
   word-spacing: .2em;
   letter-spacing: .5em;  
   left: 24vw;
   top: 72vh; 
+  font-weight: 100;
 }
 
 .pcv {
@@ -81,10 +88,12 @@ body{
 }
 
 .education {
+  font-family: 'Manrope';
   text-transform: uppercase;       
   letter-spacing: 1.93em;
   left: 40vw;
-  top: 54vh
+  top: 54vh;
+  font-weight: 100;
 }
 
 .testimonials {
@@ -95,6 +104,8 @@ body{
 .go {
   left: 77vw;
   top: 42vh;
+  font-family: 'Manrope';
+  font-weight: 100;
 }
 
 .hands img,

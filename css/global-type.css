@@ -6,8 +6,8 @@
 /*
 =STYLE THE BODY*/ 
 
-body, .menu-wrapper a, p {
-    font: normal 100 17px/1.2 "Garamond",serif; 
+body, .menu-wrapper a, p, .main-cont p {
+    font: normal 200 17px/1.2 "EB Garamond",serif; 
     color: rgb(33 44 30);
 }
 
@@ -29,36 +29,22 @@ a {
 }
 
 /*
-=STYLE THE MENU*/ 
-.menu-wrapper ul {
-    display: flex;
-    flex-direction: column;
-    gap: 11px;
-    list-style: none;
-}
-
-.menu-wrapper a {
-    display: block;
-    word-break: keep-all;
-}
-
-/*
 =STYLE THE TYPE*/ 
 
 h1 a {
+    font: normal 100 30px/1.2 "Manrope", sans-serif; 
     color: rgb(250 247 245);
-    font-weight: 100;
 }
 
 h2 {
-    color: rgba(33 44 30/ 0.4);
-    font-size: 40px;
-    font-weight: 100;
+    font: normal 100 45px/1.2 "Manrope", sans-serif; 
+    color: rgba(33 44 30);
+
 }
 
 h3, .caption h3 a, .archive-title h3 a {
     color: rgba(33 44 30);
-    font-size: 18px;
+    font-size: 17px;
     margin: 0;
     line-height: 1.2;
     font-weight: normal;
@@ -72,31 +58,56 @@ h3, .caption h3 a, .archive-title h3 a {
 
 footer a .index {
     color: rgb(250 247 245/ 0.3);
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.2;
     letter-spacing: .04em;
     font-weight: normal;
 }
 
+.contact  {
+    margin-bottom: 30px;
+}
+
 /*
-=CUSTOMIZATIONS*/ 
-span.sub {
+=CUSTOMIZATIONS- CONOR PHD*/ 
+.sub-cont span.sub {
+    font: normal 200 23px/1.2 "Manrope", sans-serif; 
     color: rgba(33 44 30);
-    font-size: 23px;
-    font-weight: bold;
     display: inline-block;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-span.scaps {
-    font-size: 14px;
-    font-weight: bold;
+
+/*
+=CUSTOMIZATIONS- I AM + EDUCATION*/ 
+.teaser-text span.scaps {
+    font: normal 250 28px/1.2 "Manrope", sans-serif; 
+    color: rgba(33 44 30);
     margin-bottom: 5px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
     display: inline-block;
 }
 
+.teaser-text .two-col .left-col span.services,
+.teaser-text .two-col .right-col span.services, h4 {
+    font: normal 700 19px/1.2 "Manrope", sans-serif; 
+    color: rgba(33 44 30/ 0.4);
+}
+
+/*
+=CUSTOMIZATIONS- EDUCATION- two col*/ 
+
+.teaser-text .two-col .left-col ul li,
+.teaser-text .two-col .right-col ul li {
+    font: normal 400 17px/1.2 "EB Garamond", serif; 
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.teaser-text .two-col .left-col ul li::before,
+.teaser-text .two-col .right-col ul li::before {
+    content: "+";
+    margin-right: 3px;
+}
 
 @media (max-width: 575.98px) {
     .main-cont h2 {
