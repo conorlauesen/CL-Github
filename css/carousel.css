@@ -92,9 +92,18 @@
     color: rgb(33, 44, 30);
 }
 
-
 /* MAKE GRID IMAGES CLICKABLE */
 
-.archive-grid-2 img {
+.archive-grid img .archive-grid-2 img {
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+.carousel-prev {
+    left: 7px;
+}
+
+.carousel-next {
+    right: 7px;
+}
 }
