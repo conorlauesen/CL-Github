@@ -82,6 +82,19 @@ ARCHIVE GRID FOR TRAVEL
 
 /*
 =============================================
+ARCHIVE GRID PHOTOGRAPHY
+=============================================
+*/
+
+.archive-grid-p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+/*
+=============================================
 MEDIA QUERIES
 =============================================
 */

@@ -24,7 +24,7 @@
 =transition the accordion's text color + max height */
 .chv_checkbox:checked ~ .accordion {
     color: rgb(33 44 30);
-    max-height: 1500px;
+    max-height: 2000px;
 }
 
 /*
@@ -63,7 +63,7 @@
     position: absolute;
     top: 0; right: 0; 
     padding: 5px;
-    transform: translate(8.5px, -7px);
+    transform: translate(20px, -7px);
 }
 
 /*
@@ -89,7 +89,7 @@
 .chv_rotate-wrapper::before,
 .chv_rotate-wrapper::after {
     content:"";
-    background-color: rgb(33 44 30);
+    background-color: rgb(33 44 30/ .6);
     width: 50%; height: 1.5px;
 }
 
@@ -126,7 +126,14 @@
     margin: 0;
 }
 
-
+@media (max-width: 600px) {
+    .accordion img {
+        float: none;
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
 
 
 

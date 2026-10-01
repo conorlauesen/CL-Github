@@ -1,0 +1,100 @@
+/* =============================================
+   IMAGE CAROUSEL
+============================================= */
+
+.image-carousel {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    z-index: 9999;
+
+    background-color: rgb(250, 247, 245);
+
+    align-items: center;
+    justify-content: center;
+}
+
+.image-carousel.active {
+    display: flex;
+}
+
+
+/* IMAGE */
+
+.carousel-image {
+    display: block;
+
+    max-width: 80%;
+    max-height: 85vh;
+
+    width: auto;
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* ARROWS */
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    border: none;
+    background: none;
+
+    padding: 10px;
+
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 100;
+
+    cursor: pointer;
+
+    color: rgb(33, 44, 30);
+}
+
+.carousel-prev {
+    left: 20px;
+}
+
+.carousel-next {
+    right: 20px;
+}
+
+
+/* CLOSE */
+
+.carousel-close {
+    position: absolute;
+
+    top: 15px;
+    right: 20px;
+
+    border: none;
+    background: none;
+
+    padding: 10px;
+
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 100;
+
+    cursor: pointer;
+
+    color: rgb(33, 44, 30);
+}
+
+
+/* MAKE GRID IMAGES CLICKABLE */
+
+.archive-grid-2 img {
+    cursor: pointer;
+}

@@ -77,7 +77,6 @@ footer {
     flex: 0 0 230px;
     margin-top: 20px;
     margin-bottom: 0;
-    padding: 10px;
     background-color: rgb(250 247 245);
 }
 
@@ -117,16 +116,14 @@ footer {
 
     /* MENU TAKES FULL WIDTH */
     .menu-wrapper {
-        position: fixed;   
-        top: 60px;
+        position: relative;   
         left: 0;
         width: 100%;
+        height: fit-content;
         min-width: 0;
         flex: 0 0 auto;
-        padding: 10px 40px;
-        background-color: rgb(250 247 245);
-        z-index: 99;
-        
+        background-color: rgb(250 247 245);   
+        padding: 0px 40px 0px 40px;     
     }
 
     /* MENU CHANGES FROM COLUMN TO ROW */
@@ -154,7 +151,7 @@ footer {
         width: 100%;
         max-width: 100%;
         flex: 0 0 auto;
-        padding-top: 90px;
+        padding-top: 10px;
     }
 
     /* SUB BELOW MAIN */
@@ -166,15 +163,3 @@ footer {
         background-color: rgb(250 247 245);
     }
 }
-
-@media (max-width: 800px) {
-.main-cont {
-    padding-top: 120px;
-    }
-}
-@media (max-width: 600px) {
-    .main-cont {
-        padding-top: 250px;
-
-        }
-    }
