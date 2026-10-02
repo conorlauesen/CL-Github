@@ -62,7 +62,7 @@ footer {
 }
 
 .sub-cont {
-    padding: 0px 40px 40px 40px;
+    padding: 0px 40px 20px 40px;
     min-width: 300px;
     flex: 0 0 300px;
     
@@ -131,7 +131,7 @@ footer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 8px 15px;
+        gap: 7px 30px;
        
         margin: 0;
         padding: 0;
